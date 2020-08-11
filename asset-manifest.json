@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/curriculo/static/css/main.5f361e03.chunk.css",
-    "main.js": "/curriculo/static/js/main.7e2ee103.chunk.js",
-    "main.js.map": "/curriculo/static/js/main.7e2ee103.chunk.js.map",
+    "main.css": "/curriculo/static/css/main.e50ae996.chunk.css",
+    "main.js": "/curriculo/static/js/main.dcb83269.chunk.js",
+    "main.js.map": "/curriculo/static/js/main.dcb83269.chunk.js.map",
     "runtime-main.js": "/curriculo/static/js/runtime-main.b2059e9d.js",
     "runtime-main.js.map": "/curriculo/static/js/runtime-main.b2059e9d.js.map",
-    "static/js/2.62cac21a.chunk.js": "/curriculo/static/js/2.62cac21a.chunk.js",
-    "static/js/2.62cac21a.chunk.js.map": "/curriculo/static/js/2.62cac21a.chunk.js.map",
+    "static/css/2.11829350.chunk.css": "/curriculo/static/css/2.11829350.chunk.css",
+    "static/js/2.80485b8c.chunk.js": "/curriculo/static/js/2.80485b8c.chunk.js",
+    "static/js/2.80485b8c.chunk.js.map": "/curriculo/static/js/2.80485b8c.chunk.js.map",
     "index.html": "/curriculo/index.html",
-    "precache-manifest.754d4b4403aab296efa63e1e20e32dc5.js": "/curriculo/precache-manifest.754d4b4403aab296efa63e1e20e32dc5.js",
+    "precache-manifest.f5f802cb4474df4a4669ed08119053ac.js": "/curriculo/precache-manifest.f5f802cb4474df4a4669ed08119053ac.js",
     "service-worker.js": "/curriculo/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/curriculo/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.62cac21a.chunk.js.LICENSE.txt": "/curriculo/static/js/2.62cac21a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/curriculo/static/media/logo.5d5d9eef.svg"
+    "static/css/2.11829350.chunk.css.map": "/curriculo/static/css/2.11829350.chunk.css.map",
+    "static/css/main.e50ae996.chunk.css.map": "/curriculo/static/css/main.e50ae996.chunk.css.map",
+    "static/js/2.80485b8c.chunk.js.LICENSE.txt": "/curriculo/static/js/2.80485b8c.chunk.js.LICENSE.txt",
+    "static/media/bandeira-brasil.svg": "/curriculo/static/media/bandeira-brasil.aa1e61da.svg",
+    "static/media/bandeira-estados-unidos.png": "/curriculo/static/media/bandeira-estados-unidos.4e06c506.png",
+    "static/media/githubIcon.svg": "/curriculo/static/media/githubIcon.b53ff55e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b2059e9d.js",
-    "static/js/2.62cac21a.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.7e2ee103.chunk.js"
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.80485b8c.chunk.js",
+    "static/css/main.e50ae996.chunk.css",
+    "static/js/main.dcb83269.chunk.js"
   ]
 }

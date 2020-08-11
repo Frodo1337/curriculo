@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,kBACE,uBAAyB,CACzB,wBACF,CAHA,SACE,YAAa,CACb,qBACF,CAHA,UACE,qBACF,CAFA,iBACE,iBAAmB,CACnB,qBACF","file":"main.e50ae996.chunk.css","sourcesContent":[".linhaSeparadora{\n  border-width: 0.1vw;\n  background-color: #000000;\n}\n"]}
