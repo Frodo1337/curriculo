@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/curriculo/static/css/main.e50ae996.chunk.css",
-    "main.js": "/curriculo/static/js/main.dcb83269.chunk.js",
-    "main.js.map": "/curriculo/static/js/main.dcb83269.chunk.js.map",
+    "main.css": "/curriculo/static/css/main.f2716069.chunk.css",
+    "main.js": "/curriculo/static/js/main.a30d43d7.chunk.js",
+    "main.js.map": "/curriculo/static/js/main.a30d43d7.chunk.js.map",
     "runtime-main.js": "/curriculo/static/js/runtime-main.b2059e9d.js",
     "runtime-main.js.map": "/curriculo/static/js/runtime-main.b2059e9d.js.map",
     "static/css/2.11829350.chunk.css": "/curriculo/static/css/2.11829350.chunk.css",
-    "static/js/2.80485b8c.chunk.js": "/curriculo/static/js/2.80485b8c.chunk.js",
-    "static/js/2.80485b8c.chunk.js.map": "/curriculo/static/js/2.80485b8c.chunk.js.map",
+    "static/js/2.06ef3872.chunk.js": "/curriculo/static/js/2.06ef3872.chunk.js",
+    "static/js/2.06ef3872.chunk.js.map": "/curriculo/static/js/2.06ef3872.chunk.js.map",
     "index.html": "/curriculo/index.html",
-    "precache-manifest.f5f802cb4474df4a4669ed08119053ac.js": "/curriculo/precache-manifest.f5f802cb4474df4a4669ed08119053ac.js",
+    "precache-manifest.fceeadccf129c3e126b4ed5244c310d7.js": "/curriculo/precache-manifest.fceeadccf129c3e126b4ed5244c310d7.js",
     "service-worker.js": "/curriculo/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/curriculo/static/css/2.11829350.chunk.css.map",
-    "static/css/main.e50ae996.chunk.css.map": "/curriculo/static/css/main.e50ae996.chunk.css.map",
-    "static/js/2.80485b8c.chunk.js.LICENSE.txt": "/curriculo/static/js/2.80485b8c.chunk.js.LICENSE.txt",
+    "static/css/main.f2716069.chunk.css.map": "/curriculo/static/css/main.f2716069.chunk.css.map",
+    "static/js/2.06ef3872.chunk.js.LICENSE.txt": "/curriculo/static/js/2.06ef3872.chunk.js.LICENSE.txt",
     "static/media/bandeira-brasil.svg": "/curriculo/static/media/bandeira-brasil.aa1e61da.svg",
     "static/media/bandeira-estados-unidos.png": "/curriculo/static/media/bandeira-estados-unidos.4e06c506.png",
     "static/media/githubIcon.svg": "/curriculo/static/media/githubIcon.b53ff55e.svg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.b2059e9d.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.80485b8c.chunk.js",
-    "static/css/main.e50ae996.chunk.css",
-    "static/js/main.dcb83269.chunk.js"
+    "static/js/2.06ef3872.chunk.js",
+    "static/css/main.f2716069.chunk.css",
+    "static/js/main.a30d43d7.chunk.js"
   ]
 }
