@@ -64,13 +64,15 @@ class Home extends Component{
                            ["Linguagem PHP", "3"], ["AWS", "1"], ["Docker", "2"], ["Eletrônica", "1"], ["Arduino", "2"],
                            ["Raspberry pi", "2"], ["MySQL", "3"], ["UML", "3"], ["Tratamento de imagem", "3"],
                            ["Tratamento de vídeo", "3"], ["Linux", "4"]],
-           "tituloAtividadesExtras": "Atividades Extras",
+           "tituloAtividadesExtras": "Atividades Extracurriculares",
            "atividadesExtras": ["· Participei do movimento escoteiro (2015 - 2019)",
                                 "· Possuo habilitação do tipo B",
                                 "· Participei da global game jam em 2018 e 2019 (abaixo link para os jogos desenvolidos nela)",
                                 "- 2018: https://globalgamejam.org/2018/games/bombard",
                                 "- 2019: https://globalgamejam.org/2019/games/sap%C3%A9-enquanto-houver-casa",
-                                "· Guitarra"]
+                                "· Guitarra"],
+           "nivelMinHabilidade": "Newba",
+           "nivelMaxHabilidade": "Proeficiente"
         },
         1: {
             "tituloPagina": "Matheus Wilhelm Siqueira Curriculum",
@@ -78,7 +80,51 @@ class Home extends Component{
             "tituloDataNascimento": "Birth Date",
             "dataNascimento": "08/30/1998",
             "tituloContato": "Contact Information",
-            "tituloSobreMim": "About me"
+            "tituloSobreMim": "About me",
+            "sobreMim": "Born in Curitiba, I always loved technology and had \
+                         really early contact with it. I started pursuing my dream \
+                         when I started IT technician high school. Later on I \
+                         started studing compuer science, which I'm still studing",
+            "tituloEducacao": "Education",
+            "educacao": ["IT TECHNICIAN HIGH SCHOOL",
+                         "· Duration: 2013 - 2016",
+                         "· Educational Institution: Centro de Educação Profissional Irmão Mario Cristóvão",
+                         "BACHELOR IN COMPUTER SCIENCE",
+                         "· Duration: 2017 – 2021 (completion forecast)",
+                         "· Educational Institution: Pontifícia Universidade Católica do Paraná"],
+            "tituloObjetivos": "Goals",
+            "objetivos": "Act in IT sector on software development area, \
+                          as far as software or web. Always looking to learn \
+                          new things, personal and professional growth, \
+                          with quality and honesty in my activities",
+            "tituloExperiencia": "Experience",
+            "experiencia": ["PROGRAMMING INTERN | SELETTRA | AUGUST 2018 – SEPTEMBER 2018",
+                            "· I was responsable for auxiliating in programming, ui programming and assembling of agvs",
+                            "PROGRAMMING INTERN | VEGOOR | FEBRUARY 2019 – FEBRUARY 2020",
+                            "· I developed python softwares, a php/javascript web application and \
+                            also was responsable for maintaining computers and user assistance",
+                            "IT INTERN | RENTCARS | FEBRUARY 2020 – AUGUST 2020",
+                            "· I was responsable for user assistance, assisting devops activities \
+                            such as deploys and cloud computing using aws",
+                            "FREELANCES",
+                            "· Python software that plots .csv data in excel sheets",
+                            "· Javascript software for insulating oil report for transfomers",
+                            "· Javascript software to count products in production lines"],
+           "tituloHabilidades": "Skills",
+           "habilidades": [["English Language", "4"], ["C Language", "3"], ["C++ Language", "2"], ["VBA Language", "2"],
+                           ["Java Language", "4"], ["Javascript Language", "3"], ["Python Language", "4"],
+                           ["PHP Language", "3"], ["AWS", "1"], ["Docker", "2"], ["Electronics", "1"], ["Arduino", "2"],
+                           ["Raspberry pi", "2"], ["MySQL", "3"], ["UML", "3"], ["Photoshop", "3"],
+                           ["Video editing", "3"], ["Linux", "4"]],
+           "tituloAtividadesExtras": "Extracurricular Activities",
+           "atividadesExtras": ["· Scout movement (2015 - 2019)",
+                                "· 'B type' (car) drive license",
+                                "· Participated in the global game jam in 2018 and 2019 (link below to the games developed)",
+                                "- 2018: https://globalgamejam.org/2018/games/bombard",
+                                "- 2019: https://globalgamejam.org/2019/games/sap%C3%A9-enquanto-houver-casa",
+                                "· Electric Guitar"],
+            "nivelMinHabilidade": "Newba",
+            "nivelMaxHabilidade": "Pro 8)"
         }
       }
     };
@@ -87,7 +133,9 @@ class Home extends Component{
   }
 
   mudaLinguagem(opc){
-    this.setState({linguagem: opc});
+    this.setState({linguagem: this.state.linguagem == 0 ? 1 : 0});
+    //Depois descomentar essa linha de baixo e apagar as de cima
+    //this.setState({linguagem: opc});
   }
 
   render(){
@@ -102,11 +150,15 @@ class Home extends Component{
       habilidades.push(<Row key={i}>
                         <Col>
                           <Habilidade titulo={this.state.textos[this.state.linguagem]["habilidades"][i][0]}
-                                      nivel={this.state.textos[this.state.linguagem]["habilidades"][i][1]}/>
+                                      nivel={this.state.textos[this.state.linguagem]["habilidades"][i][1]}
+                                      min={this.state.textos[this.state.linguagem]["nivelMinHabilidade"]}
+                                      max={this.state.textos[this.state.linguagem]["nivelMaxHabilidade"]}/>
                         </Col>
                         <Col>
                           <Habilidade titulo={this.state.textos[this.state.linguagem]["habilidades"][i+1][0]}
-                                      nivel={this.state.textos[this.state.linguagem]["habilidades"][i+1][1]}/>
+                                      nivel={this.state.textos[this.state.linguagem]["habilidades"][i+1][1]}
+                                      min={this.state.textos[this.state.linguagem]["nivelMinHabilidade"]}
+                                      max={this.state.textos[this.state.linguagem]["nivelMaxHabilidade"]}/>
                         </Col>
                        </Row>);
 
@@ -117,7 +169,9 @@ class Home extends Component{
       habilidades.push(<Row key={maxHabilidades}>
                         <Col>
                           <Habilidade titulo={this.state.textos[this.state.linguagem]["habilidades"][maxHabilidades - 1][0]}
-                                      nivel={this.state.textos[this.state.linguagem]["habilidades"][maxHabilidades - 1][1]}/>
+                                      nivel={this.state.textos[this.state.linguagem]["habilidades"][maxHabilidades - 1][1]}
+                                      min={this.state.textos[this.state.linguagem]["nivelMinHabilidade"]}
+                                      max={this.state.textos[this.state.linguagem]["nivelMaxHabilidade"]}/>
                         </Col>
                         <Col>
                         </Col>
@@ -245,9 +299,7 @@ class Home extends Component{
                 <Col>
                   <TituloCurriculo texto={this.state.textos[this.state.linguagem]["tituloAtividadesExtras"]}/>
 
-                  <span>
-                    {atividadesExtras}
-                  </span>
+                  {atividadesExtras}
                 </Col>
               </Row>
             </Col>

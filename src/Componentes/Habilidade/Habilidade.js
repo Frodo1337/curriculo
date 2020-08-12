@@ -39,7 +39,7 @@ class Habilidade extends Component{
           <Row>
             <Col className="text-right">
               <span>
-                Newba
+                {this.props.min}
               </span>
             </Col>
             <Col className='barra' id={id + '1'}>
@@ -54,7 +54,7 @@ class Habilidade extends Component{
             </Col>
             <Col>
               <span>
-                Proeficiente
+                {this.props.max}
               </span>
             </Col>
           </Row>
