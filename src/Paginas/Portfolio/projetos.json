@@ -1,0 +1,48 @@
+{
+"0": {
+    "2016": {
+      "0": ["Bethy Cocktails",
+            "<span>Bethy foi um projeto de conclusão de curso no ensino médio técnico. O projeto era um protótipo de uma máquina bebidas automatizada utilizando o chip microcontrolador 'Atmega328' presente no Arduino. O protótipo poderia ser controlado por botões ou por um sistema web própria para ele, onde era possível cadastrar as bebidas, cadastrar drinks, monitorar o nível de bebida em cada garrafa, visualizar bebidas e drinks e também havia um sistema de usuário onde menores de idade não poderiam escolher bebidas alcoólicas, caso elas existissem (segue abaixo um vídeo demonstrativo)</span>",
+            "<iframe width='560' height='315' src='https://www.youtube.com/embed/zDt4E0MZ6vo' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"]
+    },
+    "2017": {
+      "0": ""
+    },
+    "2018": {
+      "0": ["Bombard",
+            "<span>Bombard foi um jogo de tabuleiro desenvolvido na <i>Global Game Jam 2018</i>. O jogo era jogador por dois jogadores, onde um utilizava uma interface gráfica no computador para guiar o jogador que move sua peça no tabueiro</span>",
+            "<span>Link para o jogo: </span><a target='_blank' href='https://globalgamejam.org/2018/games/bombard'>Bombard</a>"]
+    },
+    "2019": {
+      "0": ["Sapé: enquanto houver casa",
+            "<span>Sapé foi desenvolvido na <i>Global Game Jam 2019</i> utilizando a engine RPG maker, é possível jogar o jogo via web</span>",
+            "<span>Link para jogar: </span><a target='_blank' href='https://brunolcarli.github.io/sapegame/www/index.html'>Jogar no navegador</a><br/><span>Link para o projeto: </span><a target='_blank' href='https://globalgamejam.org/2019/games/sap%C3%A9-enquanto-houver-casa'>Sapé: enquanto houver casa</a>"]
+    },
+    "2020": {
+      "0": ""
+    }
+},
+"1": {
+    "2016": {
+      "0": ["Bethy Cocktails",
+            "<span>Bethy was a project to conclude the it techinican course. The objective of the project was to automate drink making using the 'Atmega328' microcontroller. The prototype could be controlled by buttons and a web page, where it's possible to registrer drinks and cocktails, to monitor drink level in each bottle and to restrict age for alcoholic drinks (demo in the video below)</span>",
+            "<iframe width='560' height='315' src='https://www.youtube.com/embed/zDt4E0MZ6vo' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"]
+    },
+    "2017": {
+      "0": ""
+    },
+    "2018": {
+      "0": ["Bombard",
+            "<span>Bombard is a board game <i>Global Game Jam 2018</i>. The game is played by two players, one use a graphic interface to guide the other player, who move pieces in the board</span>",
+            "<span>Link to the game: </span><a target='_blank' href='https://globalgamejam.org/2018/games/bombard'>Bombard</a>"]
+    },
+    "2019": {
+      "0": ["Sapé: enquanto houver casa",
+            "<span>Sapé was developed in <i>Global Game Jam 2019</i> using RPG maker engine, it's possible to play it on web</span>",
+            "<span>Link to play: </span><a target='_blank' href='https://brunolcarli.github.io/sapegame/www/index.html'>Play on browser</a><br/><span>Project link: </span><a target='_blank' href='https://globalgamejam.org/2019/games/sap%C3%A9-enquanto-houver-casa'>Sapé: enquanto houver casa</a>"]
+    },
+    "2020": {
+      "0": ""
+    }
+}
+}
