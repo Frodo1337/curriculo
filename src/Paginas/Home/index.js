@@ -14,9 +14,8 @@ import Col from "react-bootstrap/Col";
 import Sidebar from "../../Componentes/Sidebar/Sidebar.js";
 import Titulo from "../../Componentes/Titulo/Titulo.js";
 import LinhaSeparadora from "../../Componentes/LinhaSeparadora/LinhaSeparadora.js";
-import AnoPortfolio from "../../Componentes/AnoPortfolio/AnoPortfolio.js";
 
-class Portfolio extends Component{
+class Home extends Component{
   constructor(props){
     super(props);
 
@@ -32,6 +31,7 @@ class Portfolio extends Component{
   }
 
   render(){
+
     return(
       <div>
         <Container fluid className="containerSidebar">
@@ -52,11 +52,6 @@ class Portfolio extends Component{
                   <LinhaSeparadora/>
                 </Col>
               </Row>
-              <Row>
-                <Col>
-                  <AnoPortfolio ano="2020"/>
-                </Col>
-              </Row>
             </Col>
           </Row>
         </Container>
@@ -65,4 +60,4 @@ class Portfolio extends Component{
   }
 }
 
-export default Portfolio;
+export default Home;
