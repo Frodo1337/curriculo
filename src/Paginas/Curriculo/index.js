@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/style-geral.css";
 import textos from "./textos.json";
+import textosSidebar from "../../json/sidebar.json";
 
 //Importações do bootstrap
 import Container from "react-bootstrap/Container";
@@ -81,7 +82,8 @@ class Curriculo extends Component{
         <Container fluid className="containerSidebar">
           <Row>
             <Col xs={1}>
-              <Sidebar mudaLinguagem={this.mudaLinguagem}/>
+              <Sidebar mudaLinguagem={this.mudaLinguagem}
+                       textos={textosSidebar[this.state.linguagem]}/>
             </Col>
             <Col>
               <Row>
