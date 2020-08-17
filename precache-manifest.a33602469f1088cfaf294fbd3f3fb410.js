@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5a7fb8e25bcbfaf099f41b0677a28c63",
+    "revision": "7af31e0ef1d8ae2fcca4fe379deb5da2",
     "url": "/curriculo/index.html"
   },
   {
-    "revision": "047c1e18efa5b1e8b70f",
+    "revision": "dbd9c055bea91e7e930c",
     "url": "/curriculo/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "4c5de847974b0a2e5a4b",
-    "url": "/curriculo/static/css/main.2511f198.chunk.css"
+    "revision": "0a5a90f5bcb7c6139714",
+    "url": "/curriculo/static/css/main.ec95d314.chunk.css"
   },
   {
-    "revision": "047c1e18efa5b1e8b70f",
-    "url": "/curriculo/static/js/2.61377268.chunk.js"
+    "revision": "dbd9c055bea91e7e930c",
+    "url": "/curriculo/static/js/2.e7498ffd.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/curriculo/static/js/2.61377268.chunk.js.LICENSE.txt"
+    "url": "/curriculo/static/js/2.e7498ffd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4c5de847974b0a2e5a4b",
-    "url": "/curriculo/static/js/main.20b08cab.chunk.js"
+    "revision": "0a5a90f5bcb7c6139714",
+    "url": "/curriculo/static/js/main.509f430f.chunk.js"
   },
   {
     "revision": "e006e6dee268a61f0a42",
@@ -34,9 +34,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e06c50655a273faea7e707cc63c4c55",
     "url": "/curriculo/static/media/bandeira-estados-unidos.4e06c506.png"
-  },
-  {
-    "revision": "b53ff55e09a092f9f0cbbf74af01b715",
-    "url": "/curriculo/static/media/githubIcon.b53ff55e.svg"
   }
 ]);
