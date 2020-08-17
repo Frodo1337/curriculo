@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 //Importação de arquivos
-import "../../css/style-geral.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../css/style-geral.css";
 import textos from "./textos.json";
 
 //Importações do bootstrap
@@ -13,6 +13,7 @@ import Col from "react-bootstrap/Col";
 import Sidebar from "../../Componentes/Sidebar/Sidebar.js";
 import Titulo from "../../Componentes/Titulo/Titulo.js";
 import LinhaSeparadora from "../../Componentes/LinhaSeparadora/LinhaSeparadora.js";
+import AnoPortfolio from "../../Componentes/AnoPortfolio/AnoPortfolio.js";
 
 class Portfolio extends Component{
   constructor(props){
@@ -47,6 +48,11 @@ class Portfolio extends Component{
               <Row>
                 <Col>
                   <LinhaSeparadora/>
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <AnoPortfolio ano="2020"/>
                 </Col>
               </Row>
             </Col>

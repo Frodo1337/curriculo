@@ -23,10 +23,10 @@ class Sidebar extends Component{
           <div className="sidebar-sticky"></div>
           <br/>
           <Nav.Item>
-            <Nav.Link href="/curriculo" className="text-light">Currículo</Nav.Link>
+            <Nav.Link href="/#/curriculo" className="text-light">Currículo</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/portfolio" className="text-light">Porfólio</Nav.Link>
+            <Nav.Link href="/#/portfolio" className="text-light">Porfólio</Nav.Link>
           </Nav.Item>
           <Nav.Item className="bandeiras">
             <div onClick={() => this.props.mudaLinguagem(0)}>
