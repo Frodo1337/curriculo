@@ -1,17 +1,19 @@
 import React, {Component} from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import iconeGithub from "./img/githubIcon.svg";
 
 import Nav from "react-bootstrap/Nav";
 
 import Bandeira from "../../Componentes/Bandeira/Bandeira.js";
 
-import iconeGithub from "./img/githubIcon.svg";
-
 class Sidebar extends Component{
   constructor(props){
     super(props);
-    //<img src={iconeGithub}/>
+
+    this.state = {
+      linguagem: 0
+    };
   }
 
   render(){
@@ -19,18 +21,20 @@ class Sidebar extends Component{
       <div>
         <Nav className="col-md-12 d-none d-md-block sidebar" activeKey="/home">
           <div className="sidebar-sticky"></div>
-          <Nav.Item>
-            <Bandeira tipo="brasil" />
-            <Bandeira tipo="eua" />
-          </Nav.Item>
+          <br/>
           <Nav.Item>
             <Nav.Link href="/curriculo" className="text-light">Currículo</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/porfolio" className="text-light">Porfólio</Nav.Link>
+            <Nav.Link href="/portfolio" className="text-light">Porfólio</Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-
+          <Nav.Item className="bandeiras">
+            <div onClick={() => this.props.mudaLinguagem(0)}>
+              <Bandeira tipo="brasil" />
+            </div>
+            <div onClick={() => this.props.mudaLinguagem(1)}>
+              <Bandeira tipo="eua"/>
+            </div>
           </Nav.Item>
         </Nav>
       </div>

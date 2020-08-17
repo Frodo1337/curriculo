@@ -1,3 +1,7 @@
 .bandeira{
-  background-size: cover;
+  width: 8vw;
+  height: 5vh;
+  background-position: center;
+  background-size: contain, cover;
+  background-repeat: no-repeat;
 }
