@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import "./style.css";
 
-import Image from "react-bootstrap/Image";
-
 import bandeiraBrasil from "./img/bandeira-brasil.svg";
 import bandeiraEua from "./img/bandeira-estados-unidos.png";
 
@@ -20,12 +18,11 @@ class Bandeira extends Component{
       return bandeiraEua;
     }
   }
-
+  //  <Image src={this.tipoBandeira()} fluid/>
   render(){
     return(
       <div>
-        <div className="bandeira">
-          <Image src={this.tipoBandeira()} fluid/>
+        <div className="bandeira" style={{backgroundImage: "url(" + this.tipoBandeira() + ")"}}>
         </div>
       </div>
     );

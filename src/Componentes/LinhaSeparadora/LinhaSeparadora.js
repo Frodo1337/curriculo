@@ -4,7 +4,6 @@ import "./style.css";
 class LinhaSeparadora extends Component{
   constructor(props){
     super(props);
-
   }
 
   render(){

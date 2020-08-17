@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-class TituloCurriculo extends Component{
+class Titulo extends Component{
   constructor(props){
     super(props);
   }
@@ -19,4 +19,4 @@ class TituloCurriculo extends Component{
   }
 }
 
-export default TituloCurriculo;
+export default Titulo;
