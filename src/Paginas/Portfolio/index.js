@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../css/style-geral.css";
 import textos from "./textos.json";
 import textosSidebar from "../../json/sidebar.json";
+import projetos from "./projetos.json";
 
 //Importações do bootstrap
 import Container from "react-bootstrap/Container";
@@ -21,7 +22,8 @@ class Portfolio extends Component{
     super(props);
 
     this.state = {
-      linguagem: 0
+      linguagem: 0,
+      anoInicio: 2016
     };
 
     this.mudaLinguagem = this.mudaLinguagem.bind(this);
@@ -32,6 +34,14 @@ class Portfolio extends Component{
   }
 
   render(){
+    const anos = [];
+    const maxAno = new Date().getFullYear();
+
+    //Conta todos os anos desde o ano atual até o ano do primeiro projeto no portfolio
+    for(let i = maxAno; i >= this.state.anoInicio; i --){
+      anos.push(<AnoPortfolio key={i} ano={i} conteudo={projetos[this.state.linguagem][i]}/>);
+    }
+
     return(
       <div>
         <Container fluid className="containerSidebar">
@@ -54,7 +64,7 @@ class Portfolio extends Component{
               </Row>
               <Row>
                 <Col>
-                  <AnoPortfolio ano="2020"/>
+                  {anos}
                 </Col>
               </Row>
             </Col>

@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import iconeGithub from "./img/githubIcon.svg";
 
 import Nav from "react-bootstrap/Nav";
 
@@ -23,21 +22,21 @@ class Sidebar extends Component{
           <div className="sidebar-sticky"></div>
           <br/>
           <Nav.Item>
-            <Nav.Link href="/" className="text-light">
+            <Nav.Link href="/#/" className="text-light">
               <span>
                 {this.props.textos["home"]}
               </span>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/curriculo" className="text-light">
+            <Nav.Link href="/#/curriculo" className="text-light">
               <span>
                 {this.props.textos["curriculo"]}
               </span>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/portfolio" className="text-light">
+            <Nav.Link href="/#/portfolio" className="text-light">
               <span>
                 {this.props.textos["portfolio"]}
               </span>
